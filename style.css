@@ -6,7 +6,7 @@ html, body{
     font-family: "neuzeit-grotesk", sans-serif;
 /*    background-color: #bc2f2f;*/
 /*    overflow-y: hidden;*/
-    overflow: scroll;
+/*    overflow: scroll;*/
 
 }
 
@@ -124,7 +124,7 @@ p{
     transform: translateY(-32%);
 /*    bottom: 5px;*/
 /*    transform: translateY(-20%);*/
-    overflow: scroll;
+/*    overflow: scroll;*/
     margin-bottom: 25px;
     
 }
