@@ -13,6 +13,12 @@ $(document).ready(function(){
 //        $(".grey").css("color", "#b4b4b4")
     });
     
+    $("#last-man").click(function(){
+        $("#last-man-img").css("display", "none");
+        $(".red").css("color", "#c63b3b")
+//        $(".grey").css("color", "#b4b4b4")
+    });
+    
     $("#identity-pilot").mouseover(function(){
         $("#identity-pilot-img").css("display", "block");
         $(".red").css("color", "#ffffff")
@@ -26,6 +32,11 @@ $(document).ready(function(){
 //        $(".grey").css("color", "#b4b4b4")
     });
     
+    $("#identity-pilot").click(function(){
+        $("#identity-pilot-img").css("display", "none");
+        $(".red").css("color", "#c63b3b")
+//        $(".grey").css("color", "#b4b4b4")
+    });
     
     $("#same-name").mouseover(function(){
         $("#same-name-img").css("display", "block");
@@ -40,5 +51,10 @@ $(document).ready(function(){
 //        $(".grey").css("color", "#b4b4b4")
     });
     
+    $("#same-name").click(function(){
+        $("#same-name-img").css("display", "none");
+        $(".red").css("color", "#c63b3b")
+//        $(".grey").css("color", "#b4b4b4")
+    });
     
 });
