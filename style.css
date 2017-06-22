@@ -52,7 +52,7 @@ p{
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
-    overflow: hidden;
+/*    overflow: hidden;*/
 /*    display: flex;*/
     z-index: -1;
 
@@ -61,7 +61,7 @@ p{
 .intro{
     margin-top: 75px;
     z-index: 1;
-    overflow-y: hidden;
+/*    overflow-y: hidden;*/
 
 }
 
@@ -93,7 +93,7 @@ p{
     margin: auto auto;
     line-height: 140px;
 /*    line-height: 100px;*/
-    overflow: hidden;
+/*    overflow: hidden;*/
 
 }
 
@@ -101,7 +101,7 @@ p{
     text-align: center;
     line-height: 200px;
 /*    line-height: 140px;*/
-    overflow: hidden;
+/*    overflow: hidden;*/
 }
 
 .red{
