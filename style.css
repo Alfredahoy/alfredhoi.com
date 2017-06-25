@@ -4,38 +4,17 @@ html, body{
     margin: 0px;
     padding: 0px;
     font-family: "neuzeit-grotesk", sans-serif;
-/*    background-color: #bc2f2f;*/
-/*    overflow-y: hidden;*/
-/*    overflow: scroll;*/
-
 }
-
-body{
-    
-}
-/*body{*/
-/*
-    font-family: "neuzeit-grotesk", sans-serif;
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
-*/
-/*    overflow: scroll;*/
-/*}*/
 
 h1{
     margin: 15px 0px;
-/*    line-height: 50px;*/
+    font-size: -webkit-calc(50px + 4vw);
+    font-size: -moz-calc(50px + 4vw);
     font-size: calc(50px + 4vw);
-/*    font-size: 50px;*/
-/*    text-align: center;*/
     font-weight: 800;
 }
 
 p{
-/*    display: block;*/
-/*    width: 3%;*/
-/*    min-width: 300px;*/
     padding: 0px;
     margin-bottom: 0px;
     text-align: left;
@@ -44,64 +23,44 @@ p{
     line-height: 20px
 }
 
-
 .wrapper{
     width: 100%;
     height: 670px;
-/*    max-height:  420px;*/
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
-/*    overflow: hidden;*/
-/*    display: flex;*/
     z-index: -1;
-
 }
 
 .intro{
     margin-top: 75px;
     z-index: 1;
-/*    overflow-y: hidden;*/
-
 }
 
 
 #name{
     width: 42%;
-/*    width: 600px;*/
     min-width: 300px;
     display: flex;
     margin: auto auto;
     color: white, !important;
-/*    overflow: hidden;*/
-
-/*    overflow: visible;*/
-
 }
 
 #left-name{
     text-align: center;
     height: 100%;
-/*    line-height: 110px;*/
     line-height: 160px;
-/*    overflow: hidden;*/
-/*    line-height: 10%;*/
 }
 
 #middle-name{
     text-align: center;
     margin: auto auto;
     line-height: 140px;
-/*    line-height: 100px;*/
-/*    overflow: hidden;*/
-
 }
 
 #right-name{
     text-align: center;
     line-height: 200px;
-/*    line-height: 140px;*/
-/*    overflow: hidden;*/
 }
 
 .red{
@@ -109,24 +68,16 @@ p{
 }
 
 .grey{
-/*    color: #252569;*/
     color: rgba(52, 52, 52, 0.3);
 }
 
 .descript{
     position: absolute;
     width:270px;
-/*    max-width: 250px;*/
-/*    right: 39px;*/
     left: 30px;
-/*    transform: translateX(-50%);*/
     top: 72%;
     transform: translateY(-32%);
-/*    bottom: 5px;*/
-/*    transform: translateY(-20%);*/
-/*    overflow: scroll;*/
-    margin-bottom: 25px;
-    
+    margin-bottom: 25px;  
 }
 
 .img-wrapper{
