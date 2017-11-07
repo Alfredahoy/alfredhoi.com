@@ -38,21 +38,21 @@ $(document).ready(function(){
 //        $(".grey").css("color", "#b4b4b4")
     });
     
-    $("#same-name").mouseover(function(){
-        $("#same-name-img").css("display", "block");
+    $("#loose-leaf").mouseover(function(){
+        $("#loose-leaf-img").css("display", "block");
         $(".red").css("color", "#ffffff")
 //        $(".grey").css("color", "#ffffff")
     });
     
     
-    $("#same-name").mouseleave(function(){
-        $("#same-name-img").css("display", "none");
+    $("#loose-leaf").mouseleave(function(){
+        $("#loose-leaf-img").css("display", "none");
         $(".red").css("color", "#c63b3b")
 //        $(".grey").css("color", "#b4b4b4")
     });
     
-    $("#same-name").click(function(){
-        $("#same-name-img").css("display", "none");
+    $("#loose-leaf").click(function(){
+        $("#loose-leaf-img").css("display", "none");
         $(".red").css("color", "#c63b3b")
 //        $(".grey").css("color", "#b4b4b4")
     });
