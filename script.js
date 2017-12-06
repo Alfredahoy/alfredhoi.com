@@ -1,60 +1,26 @@
-$(document).ready(function(){
+window.onload=function() {
+  // Month,Day,Year,Hour,Minute,Second
+  upTime('dec,06,2017,00:00:00'); // ****** Change this line!
+}
+
+function upTime(countTo) {
     
-    $("#last-man").mouseover(function(){
-        $("#last-man-img").css("display", "block");
-        $(".red").css("color", "#ffffff")
-//        $(".grey").css("color", "#ffffff")
-        
-    });
+  now = new Date();
+  countTo = new Date(countTo);
+  difference = (now-countTo);
+
+  days=Math.floor(difference/(60*60*1000*24)*1);
+  hours=Math.floor((difference%(60*60*1000*24))/(60*60*1000)*1);
+  mins=Math.floor(((difference%(60*60*1000*24))%(60*60*1000))/(60*1000)*1);
+  secs=Math.floor((((difference%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1);
+
+  document.getElementById('days').firstChild.nodeValue = days;
+  document.getElementById('hours').firstChild.nodeValue = hours;
+  document.getElementById('minutes').firstChild.nodeValue = mins;
+  document.getElementById('seconds').firstChild.nodeValue = secs;
+
+  clearTimeout(upTime.to);
     
-    $("#last-man").mouseleave(function(){
-        $("#last-man-img").css("display", "none");
-        $(".red").css("color", "#c63b3b")
-//        $(".grey").css("color", "#b4b4b4")
-    });
-    
-    $("#last-man").click(function(){
-        $("#last-man-img").css("display", "none");
-        $(".red").css("color", "#c63b3b")
-//        $(".grey").css("color", "#b4b4b4")
-    });
-    
-    $("#identity-pilot").mouseover(function(){
-        $("#identity-pilot-img").css("display", "block");
-        $(".red").css("color", "#ffffff")
-//        $(".grey").css("color", "#ffffff")
-    });
-    
-    
-    $("#identity-pilot").mouseleave(function(){
-        $("#identity-pilot-img").css("display", "none");
-        $(".red").css("color", "#c63b3b")
-//        $(".grey").css("color", "#b4b4b4")
-    });
-    
-    $("#identity-pilot").click(function(){
-        $("#identity-pilot-img").css("display", "none");
-        $(".red").css("color", "#c63b3b")
-//        $(".grey").css("color", "#b4b4b4")
-    });
-    
-    $("#loose-leaf").mouseover(function(){
-        $("#loose-leaf-img").css("display", "block");
-        $(".red").css("color", "#ffffff")
-//        $(".grey").css("color", "#ffffff")
-    });
-    
-    
-    $("#loose-leaf").mouseleave(function(){
-        $("#loose-leaf-img").css("display", "none");
-        $(".red").css("color", "#c63b3b")
-//        $(".grey").css("color", "#b4b4b4")
-    });
-    
-    $("#loose-leaf").click(function(){
-        $("#loose-leaf-img").css("display", "none");
-        $(".red").css("color", "#c63b3b")
-//        $(".grey").css("color", "#b4b4b4")
-    });
-    
-});
+  upTime.to=setTimeout(function(){ 
+      upTime(countTo); },1000);
+}
