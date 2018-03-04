@@ -14,14 +14,6 @@ $("#death-sentence").hover(function(){
     $("#death-sentence-pic").toggleClass("open")
 });    
     
-$("body").mousemove(function(){
-    if (n >= 1 && event.clientX >= innerWidth/3){
-        $(this).css("cursor", "e-resize");
-    } else if ( n >= 1 && event.clientX < innerWidth/3){
-        $(this).css("cursor", "w-resize");
-    }    
-}); 
-    
 //$(function () {
 //var touch = 'ontouchstart' in document.documentElement
 //            || navigator.maxTouchPoints > 0

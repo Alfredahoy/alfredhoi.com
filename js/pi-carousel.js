@@ -41,7 +41,15 @@ $("body").click(function(){
     }
     document.getElementById("number").innerHTML = n + " of 5";
 
-});      
+});
+    
+    $("body").mousemove(function(){
+    if (n >= 1 && event.clientX >= innerWidth/3){
+        $(this).css("cursor", "e-resize");
+    } else if ( n >= 1 && event.clientX < innerWidth/3){
+        $(this).css("cursor", "w-resize");
+    }    
+}); 
  
 });
 

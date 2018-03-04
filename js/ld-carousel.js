@@ -88,6 +88,14 @@ $("body").click(function(){
     
 });
     
+    $("body").mousemove(function(){
+    if (n >= 1 && event.clientX >= innerWidth/3){
+        $(this).css("cursor", "e-resize");
+    } else if ( n >= 1 && event.clientX < innerWidth/3){
+        $(this).css("cursor", "w-resize");
+    }    
+}); 
+    
 });
 
 
