@@ -1,0 +1,280 @@
+@media screen and (min-width: 700px) and (max-width: 900px) {
+
+iframe{
+    width: 600px;
+    height: 320px;
+    opacity: 0.9;
+}    
+    
+.x-small{
+    width: 350px;
+}
+
+.small{
+    width: 400px;
+}
+
+.med{
+    width: 600px;
+}
+
+.large{
+    width: 750px;
+}
+
+.x-large{
+    width: 900px;
+}
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 699px) {
+
+iframe{
+    width: 400px;
+    height: 320px;
+    opacity: 0.9;
+}    
+    
+.x-small{
+    width: 275px;
+}
+
+.small{
+    width: 320px;
+}
+
+.med{
+    width: 400px;
+}
+
+.large{
+    width: 500px;
+}
+
+.x-large{
+    width: 108%;
+}
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px) {
+
+iframe{
+    width: 400px;
+    height: 210px;
+    opacity: 0.9;
+}    
+    
+.x-small{
+    width: 200px;
+}
+
+.small{
+    width: 250px;
+}
+
+.med{
+    width: 350px;
+}
+
+.large{
+    width: 400px;
+}
+
+.x-large{
+    width: 108%;
+}
+
+.bitmap{
+    width: 115px;
+}    
+    
+h1{
+    font-size: 30px;
+}
+
+.sidebar{
+    left: 45px;
+}    
+    
+#home{
+    width: 1650px;
+}
+
+#info-side{
+    width: 1440px; 
+}
+
+#fearful-side{
+    width: 240px;
+}
+
+#ld-side{
+    width: 250px;
+}
+
+#pi-side{
+    width: 240px;
+}    
+    
+.title{
+    width: 100%;
+}
+    
+.descript{
+    width: 80%;
+    padding-left: 50px;
+}    
+    
+}
+
+@media screen and (min-width: 350px) and (max-width: 399px) {
+
+iframe{
+    width: 350px;
+    height: 185px;
+    opacity: 0.9;
+}    
+    
+.x-small{
+    width: 200px;
+}
+
+.small{
+    width: 250px;
+}
+
+.med{
+    width: 350px;
+}
+
+.large{
+    width: 300px;
+}
+
+.x-large{
+    width: 108%;
+}
+    
+.bitmap{
+    width: 120px;
+}
+
+h1{
+    font-size: 22px;
+}
+
+h2{
+    font-size: 10px;
+}
+    
+.sidebar{
+    left: 35px;
+}
+    
+#home{
+    width: 1230px;
+}
+
+#info-side{
+    width: 1080px; 
+}
+
+#fearful-side{
+    width: 180px;
+}
+
+#ld-side{
+    width: 190px;
+}
+
+#pi-side{
+    width: 180px;
+}    
+    
+.title{
+    width: 100%;
+}
+    
+.descript{
+    width: 80%;
+    padding-left: 40px;
+}  
+    
+}
+
+@media screen and (min-width: 0px) and (max-width: 349px) {
+
+iframe{
+    width: 220px;
+    height: 120px;
+    opacity: 0.9;
+}    
+    
+.x-small{
+    width: 150px;
+}
+
+.small{
+    width: 190px;
+}
+
+.med{
+    width: 220px;
+}
+
+.large{
+    width: 260px;
+}
+
+.x-large{
+    width: 108%;
+}   
+
+.bitmap{
+    width: 80px;
+}
+    
+h1{
+    font-size: 22px;
+}
+
+h2{
+    font-size: 10px;
+}
+    
+.sidebar{
+    left: 35px;
+}
+    
+#home{
+    width: 1230px;
+}
+
+#info-side{
+    width: 1080px; 
+}
+
+#fearful-side{
+    width: 180px;
+}
+
+#ld-side{
+    width: 190px;
+}
+
+#pi-side{
+    width: 180px;
+}    
+    
+.title{
+    width: 100%;
+}
+    
+.descript{
+    width: 75%;
+    padding-left: 40px;
+}    
+    
+}
