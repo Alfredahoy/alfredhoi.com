@@ -58,6 +58,14 @@ iframe{
     width: 108%;
 }
 
+#pilot-pic{
+    width: 275px;
+}    
+    
+#death-sentence-pic{
+    width: 325px;
+}     
+    
 }
 
 @media screen and (min-width: 400px) and (max-width: 499px) {
@@ -128,8 +136,16 @@ h1{
 .descript{
     width: 80%;
     padding-left: 50px;
+}  
+    
+#pilot-pic{
+    width: 275px;
 }    
     
+#death-sentence-pic{
+    width: 325px;
+}    
+     
 }
 
 @media screen and (min-width: 350px) and (max-width: 399px) {
@@ -205,6 +221,18 @@ h2{
     width: 80%;
     padding-left: 40px;
 }  
+
+#pilot-pic{
+    width: 225px;
+}    
+    
+#death-sentence-pic{
+    width: 275px;
+}    
+
+#fearful-pic{
+    width: 150px;
+}        
     
 }
 
@@ -280,6 +308,18 @@ h2{
 .descript{
     width: 75%;
     padding-left: 40px;
+}    
+
+#pilot-pic{
+    width: 225px;
+}    
+    
+#death-sentence-pic{
+    width: 275px;
+}    
+
+#fearful-pic{
+    width: 150px;
 }    
     
 }
