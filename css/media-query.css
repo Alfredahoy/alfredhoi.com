@@ -1,6 +1,7 @@
 @media screen and (min-width: 700px) and (max-width: 900px) {
 
 iframe{
+    visibility: hidden;
     width: 600px;
     height: 320px;
     opacity: 0.9;
@@ -31,6 +32,7 @@ iframe{
 @media screen and (min-width: 500px) and (max-width: 699px) {
 
 iframe{
+    visibility: hidden;
     width: 400px;
     height: 320px;
     opacity: 0.9;
@@ -61,6 +63,7 @@ iframe{
 @media screen and (min-width: 400px) and (max-width: 499px) {
 
 iframe{
+    visibility: hidden;
     width: 400px;
     height: 210px;
     opacity: 0.9;
@@ -132,6 +135,7 @@ h1{
 @media screen and (min-width: 350px) and (max-width: 399px) {
 
 iframe{
+    visibility: hidden;
     width: 350px;
     height: 185px;
     opacity: 0.9;
@@ -207,6 +211,7 @@ h2{
 @media screen and (min-width: 0px) and (max-width: 349px) {
 
 iframe{
+    visibility: hidden;
     width: 220px;
     height: 120px;
     opacity: 0.9;
