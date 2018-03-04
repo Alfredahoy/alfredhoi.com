@@ -290,7 +290,8 @@ a:hover{
 }
 
 iframe{
-    visibility: hidden;
+/*    visibility: hidden;*/
+    display: none;
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
@@ -299,10 +300,6 @@ iframe{
     opacity: 0.9;
     -webkit-user-select: none;
     margin: 0px;
-}
-
-#fearful-2, #fearful-4{
-    visibility: hidden;
 }
 
 .x-small{

@@ -33,9 +33,9 @@ $(".fearful-wrapper").click(function(){
     $("#fearful-1").css("visibility", "hidden")    
     }
     if (n == 2){
-    $("#fearful-2").css("visibility", "visible")
+    $("#fearful-2").css("display", "block")
     } else{
-    $("#fearful-2").css("visibility", "hidden")    
+    $("#fearful-2").css("display", "none")    
     }
     if (n == 3){
     $("#fearful-3").css("visibility", "visible")
@@ -43,9 +43,9 @@ $(".fearful-wrapper").click(function(){
     $("#fearful-3").css("visibility", "hidden")    
     }
     if (n == 4){
-    $("#fearful-4").css("visibility", "visible")
+    $("#fearful-4").css("display", "block")
     } else{
-    $("#fearful-4").css("visibility", "hidden")    
+    $("#fearful-4").css("display", "none")    
     }
     if (n == 5){
     $("#fearful-5").css("visibility", "visible")
