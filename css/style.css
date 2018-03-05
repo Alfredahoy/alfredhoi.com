@@ -239,7 +239,8 @@ a:hover{
     position: fixed;
     display: flex;
     top: 50%;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
 }
 
 #fearful-pic{
@@ -248,7 +249,8 @@ a:hover{
     margin: auto auto;
     position: fixed;
     top: 50%;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
 }
 
 #fearful-pic.open, #pilot-pic.open, #death-sentence-pic.open{
