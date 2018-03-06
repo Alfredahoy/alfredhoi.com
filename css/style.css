@@ -160,7 +160,7 @@ h3{
 #email:hover{
     cursor: grab;
     cursor: -webkit-grab;
-    -webkit-animation: blinking 1.4s;
+    -webkit-animation: blinking 2s;
     animation: blinking 1.4s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -172,14 +172,32 @@ h3{
     0%{
         cursor: -webkit-grab;
     }
-    49%{
+    15%{
         cursor: -webkit-grab;
     }
-    50%{
+    16%{
         cursor: -webkit-grabbing;
     }
-    100%{
+    29%{
         cursor: -webkit-grabbing;
+    }
+    30%{
+        cursor: -webkit-grab;
+    }
+    45%{
+        cursor: -webkit-grab; 
+    }
+    46%{
+        cursor: -webkit-grabbing;
+    }
+    60%{
+        cursor: -webkit-grabbing;
+    }
+    61%{
+        cursor: -webkit-grab;
+    }
+    100%{
+        cursor: -webkit-grab;
     }
 }
 
@@ -272,6 +290,16 @@ a:hover{
     visibility: visible !important;
 }
 
+#waiting{
+    visibility: visible !important;
+    width: 200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: -1;
+}
+
 .fearful-wrapper, .ld-wrapper, .pi-wrapper{
     width: 100%;
     height: 100%;
@@ -285,7 +313,7 @@ a:hover{
 
 .fearful-wrapper img, .ld-wrapper img, .pi-wrapper img{
     position: fixed;
-    opacity: 0.9;
+/*    opacity: 0;*/
     visibility: hidden;
     -webkit-user-select: none;
     margin: 0px;
@@ -300,7 +328,7 @@ iframe{
     transform: translateY(-50%) translateX(-50%);
     width: 800px;
     height: 420px;
-    opacity: 0.9;
+/*    opacity: 0.9;*/
     -webkit-user-select: none;
     margin: 0px;
 }
