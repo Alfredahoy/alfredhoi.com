@@ -15,7 +15,7 @@ $("#death-sentence").hover(function(){
 });    
     
     
-$(".fearful-wrapper").click(function(){
+$(".fearful-wrapper").click(function(event){
     if (n >= 1 && event.clientX >= innerWidth/3){
         n ++;
     } else if (n >= 1 && event.clientX < innerWidth/3){
@@ -67,7 +67,7 @@ $(".fearful-wrapper").click(function(){
     
 });        
 
-$(".ld-wrapper").click(function(){
+$(".ld-wrapper").click(function(event){
     if (n >= 1 && event.clientX >= innerWidth/3){
         n ++;
     } else if (n >= 1 && event.clientX < innerWidth/3){
@@ -153,7 +153,7 @@ $(".ld-wrapper").click(function(){
     
 });
     
-$(".pi-wrapper").click(function(){
+$(".pi-wrapper").click(function(event){
     if (n >= 1 && event.clientX >= innerWidth/3){
         n ++;
     } else if (n >= 1 && event.clientX < innerWidth/3){
@@ -194,7 +194,7 @@ $(".pi-wrapper").click(function(){
 
 });      
 
-$(".fearful-wrapper").mousemove(function(){
+$(".fearful-wrapper").mousemove(function(event){
     if (n >= 1 && event.clientX >= innerWidth/3){
         $(this).css("cursor", "e-resize");
     } else if ( n >= 1 && event.clientX < innerWidth/3){
@@ -202,7 +202,7 @@ $(".fearful-wrapper").mousemove(function(){
     }    
 }); 
     
-$(".ld-wrapper").mousemove(function(){
+$(".ld-wrapper").mousemove(function(event){
     if (n >= 1 && event.clientX >= innerWidth/3){
         $(this).css("cursor", "e-resize");
     } else if ( n >= 1 && event.clientX < innerWidth/3){
@@ -210,7 +210,7 @@ $(".ld-wrapper").mousemove(function(){
     }    
 });
     
-$(".pi-wrapper").mousemove(function(){
+$(".pi-wrapper").mousemove(function(event){
     if (n >= 1 && event.clientX >= innerWidth/3){
         $(this).css("cursor", "e-resize");
     } else if ( n >= 1 && event.clientX < innerWidth/3){
