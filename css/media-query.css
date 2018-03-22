@@ -176,7 +176,7 @@ iframe{
 }
 
 h1{
-    font-size: 22px;
+    font-size: 22px !important;
 }
 
 h2{
@@ -262,7 +262,7 @@ iframe{
 }
     
 h1{
-    font-size: 22px;
+    font-size: 22px !important;
 }
 
 h2{
