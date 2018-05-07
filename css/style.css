@@ -68,6 +68,10 @@ h2{
     font-size: 15px;
 }
 
+.subheading{
+    color: white;
+}
+
 .sidebar{
     color: #afafaf;
     transform: rotate(90deg);
