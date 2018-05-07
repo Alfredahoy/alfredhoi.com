@@ -72,6 +72,10 @@ h2{
     color: white;
 }
 
+.indent{
+    margin-left: 2.5px
+}
+
 .sidebar{
     color: #afafaf;
     transform: rotate(90deg);
