@@ -61,10 +61,14 @@ iframe{
 #death-sentence-pic{
     width: 325px;
 }     
+
+#no-pic{
+    width: 250px;
+}    
     
 }
 
-@media screen and (min-width: 400px) and (max-width: 499px) {
+@media screen and (min-width: 0px) and (max-width: 499px) {
 
 iframe{
     width: 400px;
@@ -92,38 +96,32 @@ iframe{
 }
 
 .bitmap, #waiting{
-    width: 115px;
+    width: 120px;
 }    
-    
-/*
+  
 h1{
-    font-size: 30px;
+    font-size: 22px !important;
 }
-*/
+
+h2{
+    font-size: 10px;
+}
 
 .sidebar{
-    left: 45px;
-}    
+    left: 35px;
+}   
     
 #home{
-    width: 1650px;
+    width: 1325px;
 }
 
 #info-side{
-    width: 1650px; 
+    width: 1240px; 
 }
 
-#fearful-side{
-    width: 240px;
+#fearful-side, #ld-side, #pi-side, #no-side{
+    width: 370px;
 }
-
-#ld-side{
-    width: 250px;
-}
-
-#pi-side{
-    width: 240px;
-}    
     
 .title{
     width: 100%;
@@ -141,10 +139,14 @@ h1{
 #death-sentence-pic{
     width: 325px;
 }    
-     
+
+#no-pic{
+    width: 200px;
+}     
+    
 }
 
-@media screen and (min-width: 350px) and (max-width: 399px) {
+@media screen and (min-width: 0px) and (max-width: 399px) {
 
 iframe{
     width: 330px;
@@ -169,43 +171,7 @@ iframe{
 
 .x-large{
     width: 108%;
-}
-    
-.bitmap, #waiting{
-    width: 120px;
-}
-
-h1{
-    font-size: 22px !important;
-}
-
-h2{
-    font-size: 10px;
-}
-    
-.sidebar{
-    left: 35px;
-}
-    
-#home{
-    width: 1230px;
-}
-
-#info-side{
-    width: 1240px; 
-}
-
-#fearful-side{
-    width: 180px;
-}
-
-#ld-side{
-    width: 190px;
-}
-
-#pi-side{
-    width: 180px;
-}    
+} 
     
 .title{
     width: 100%;
@@ -259,39 +225,7 @@ iframe{
 
 .bitmap, #waiting{
     width: 80px;
-}
-    
-h1{
-    font-size: 22px !important;
-}
-
-h2{
-    font-size: 10px;
-}
-    
-.sidebar{
-    left: 35px;
-}
-    
-#home{
-    width: 1230px;
-}
-
-#info-side{
-    width: 1240px; 
-}
-
-#fearful-side{
-    width: 180px;
-}
-
-#ld-side{
-    width: 190px;
-}
-
-#pi-side{
-    width: 180px;
-}    
+}   
     
 .title{
     width: 100%;
@@ -300,18 +234,6 @@ h2{
 .descript{
     width: 75%;
     padding-left: 40px;
-}    
-
-#pilot-pic{
-    width: 225px;
-}    
-    
-#death-sentence-pic{
-    width: 275px;
-}    
-
-#fearful-pic{
-    width: 150px;
-}    
+}       
     
 }

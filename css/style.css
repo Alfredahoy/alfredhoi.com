@@ -54,14 +54,17 @@ a{
 }
 
 h1{
-/*    color: #afafaf;*/
     color: white;
     font-weight: 200;
     font-size: 30px;
 }
 
+.dash{
+    position: relative;
+    bottom: 1px;
+}
+
 h2{
-/*    color: white;*/
     color: #afafaf;
     margin: 0px 0px;
     font-weight: 200;
@@ -97,23 +100,15 @@ h2{
 
 #home{
 /*    width: 2200px;*/
-    width: 1630px;
+    width: 1800px;
 }
 
 #info-side{
     width: 1650px; 
 }
 
-#fearful-side{
-    width: 250px;
-}
-
-#ld-side{
-    width: 260px;
-}
-
-#pi-side{
-    width: 250px;
+#fearful-side, #ld-side, #pi-side, #no-side{
+    width: 480px;
 }
 
 h1 a:hover{
@@ -250,7 +245,7 @@ a:hover{
     top: 0px;
 }
 
-#fearful, #death-sentence, #pilot{
+#fearful, #death-sentence, #pilot, #no-ufo{
     cursor: e-resize;
 }
 
@@ -285,11 +280,21 @@ a:hover{
     transform: translateY(-50%) translateX(-50%);
 }
 
-#fearful-pic.open, #pilot-pic.open, #death-sentence-pic.open{
+#no-pic{
+    visibility: hidden;
+    width: 350px;
+    margin: auto auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+#fearful-pic.open, #pilot-pic.open, #death-sentence-pic.open, #no-pic.open{
     visibility: visible;
 }
 
-#fearful-1, #ld-1, #pi-1 {
+#fearful-1, #ld-1, #pi-1, #no-1 {
     visibility: visible;
 } 
 
@@ -305,7 +310,7 @@ a:hover{
 }
 
 #waiting{
-    visibility: visible !important;
+    visibility: visible;
     width: 200px;
     position: fixed;
     top: 50%;
@@ -314,7 +319,7 @@ a:hover{
     z-index: -1;
 }
 
-.fearful-wrapper, .ld-wrapper, .pi-wrapper{
+.fearful-wrapper, .ld-wrapper, .pi-wrapper, .no-wrapper{
     width: 100%;
     height: 100%;
     position: fixed;
@@ -325,7 +330,7 @@ a:hover{
     z-index: 1;
 }
 
-.fearful-wrapper img, .ld-wrapper img, .pi-wrapper img{
+.no-wrapper img, .fearful-wrapper img, .ld-wrapper img, .pi-wrapper img {
     position: fixed;
 /*    opacity: 0;*/
     visibility: hidden;

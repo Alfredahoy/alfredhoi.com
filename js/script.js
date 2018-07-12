@@ -12,8 +12,98 @@ $("#pilot").hover(function(){
 
 $("#death-sentence").hover(function(){
     $("#death-sentence-pic").toggleClass("open")
-});    
+});
+
+$("#no-ufo").hover(function(){
+    $("#no-pic").toggleClass("open")
+});     
     
+    $(".no-wrapper").click(function(event){
+    if (n >= 1 && event.clientX >= innerWidth/3){
+        n ++;
+    } else if (n >= 1 && event.clientX < innerWidth/3){
+        n--;
+    }
+    if (n < 1){
+        n = 14;
+    }
+    if (n > 14){
+        n = 1;
+    }
+    if (n == 1 ){
+    $("#no-1").css("visibility", "visible")
+    } else{
+    $("#no-1").css("visibility", "hidden")
+    }
+    if (n == 2){
+    $("#no-2").css("visibility", "visible")
+    } else{
+    $("#no-2").css("visibility", "hidden") 
+    }
+    if (n == 3){
+    $("#no-3").css("visibility", "visible")
+    } else{
+    $("#no-3").css("visibility", "hidden")
+    }
+    if (n == 4){
+    $("#no-4").css("visibility", "visible")
+    } else{
+    $("#no-4").css("visibility", "hidden")
+    }
+    if (n == 5){
+    $("#no-5").css("visibility", "visible")
+    } else{
+    $("#no-5").css("visibility", "hidden") 
+    }
+    if (n == 6){
+    $("#no-6").css("visibility", "visible")
+    } else{
+    $("#no-6").css("visibility", "hidden")
+    }
+    if (n == 7){
+    $("#no-7").css("visibility", "visible")
+    } else{
+    $("#no-7").css("visibility", "hidden")
+    }
+    if (n == 8){
+    $("#no-8").css("visibility", "visible")
+    } else{
+    $("#no-8").css("visibility", "hidden")
+    }
+    if (n == 9){
+    $("#no-9").css("visibility", "visible")
+    } else{
+    $("#no-9").css("visibility", "hidden")
+    }
+    if (n == 10){
+    $("#no-10").css("visibility", "visible")
+    } else{
+    $("#no-10").css("visibility", "hidden")
+    }
+    if (n == 11){
+    $("#no-11").css("visibility", "visible")
+    } else{
+    $("#no-11").css("visibility", "hidden")
+    }
+    if (n == 12){
+    $("#no-12").css("visibility", "visible")
+    } else{
+    $("#no-12").css("visibility", "hidden") 
+    }
+    if (n == 13){
+    $("#no-13").css("visibility", "visible")
+    } else{
+    $("#no-13").css("visibility", "hidden") 
+    }
+    if (n == 14){
+    $("#no-14").css("visibility", "visible")
+    } else{
+    $("#no-14").css("visibility", "hidden") 
+    }
+    
+    document.getElementById("number").innerHTML = n + " of 14";
+});
+        
     
 $(".fearful-wrapper").click(function(event){
     if (n >= 1 && event.clientX >= innerWidth/3){
@@ -63,9 +153,10 @@ $(".fearful-wrapper").click(function(event){
     $("#fearful-7").css("visibility", "hidden")    
     }
     
-    document.getElementById("number").innerHTML = n + " of 7";
+    document.getElementById("number").innerHTML = n + " of 7";  
+});      
     
-});        
+    
 
 $(".ld-wrapper").click(function(event){
     if (n >= 1 && event.clientX >= innerWidth/3){
@@ -192,8 +283,16 @@ $(".pi-wrapper").click(function(event){
     }
     document.getElementById("number").innerHTML = n + " of 5";
 
-});      
+});
 
+$(".no-wrapper").mousemove(function(event){
+    if (n >= 1 && event.clientX >= innerWidth/3){
+        $(this).css("cursor", "e-resize");
+    } else if ( n >= 1 && event.clientX < innerWidth/3){
+        $(this).css("cursor", "w-resize");
+    }    
+});     
+    
 $(".fearful-wrapper").mousemove(function(event){
     if (n >= 1 && event.clientX >= innerWidth/3){
         $(this).css("cursor", "e-resize");
