@@ -25,9 +25,9 @@ $("#no-ufo").hover(function(){
         n--;
     }
     if (n < 1){
-        n = 14;
+        n = 15;
     }
-    if (n > 14){
+    if (n > 15){
         n = 1;
     }
     if (n == 1 ){
@@ -100,8 +100,13 @@ $("#no-ufo").hover(function(){
     } else{
     $("#no-14").css("visibility", "hidden") 
     }
+    if (n == 15){
+    $("#no-15").css("visibility", "visible")
+    } else{
+    $("#no-15").css("visibility", "hidden") 
+    }
     
-    document.getElementById("number").innerHTML = n + " of 14";
+    document.getElementById("number").innerHTML = n + " of 15";
 });
         
     
