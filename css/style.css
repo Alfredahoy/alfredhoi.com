@@ -38,7 +38,7 @@ html, body{
     position: fixed;
     width: 350px;
     top: 0px;
-    padding: 20px 60px;
+    padding: 20px 50px;
     z-index: 5;
     padding-bottom: 0px;
 }
@@ -63,7 +63,7 @@ a{
 h1{
     color: white;
     font-weight: 200;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .dash{
@@ -126,7 +126,7 @@ h1 a:hover{
 
 .arrow{
     font-family: "Times New Roman";
-    padding: 5px;
+    padding: 2px;
 }
 
 h3{
