@@ -16,12 +16,16 @@ $("#death-sentence").hover(function(){
 
 $("#no-ufo").hover(function(){
     $("#no-pic").toggleClass("open")
-});     
+});
+    
+$("#pattern-project").hover(function(){
+    $("#pattern-pic").toggleClass("open")
+});
     
     $(".no-wrapper").click(function(event){
-    if (n >= 1 && event.clientX >= innerWidth/3){
+    if (n >= 1 && event.clientX >= innerWidth/2.25){
         n ++;
-    } else if (n >= 1 && event.clientX < innerWidth/3){
+    } else if (n >= 1 && event.clientX < innerWidth/2.25){
         n--;
     }
     if (n < 1){
@@ -111,9 +115,9 @@ $("#no-ufo").hover(function(){
         
     
 $(".fearful-wrapper").click(function(event){
-    if (n >= 1 && event.clientX >= innerWidth/3){
+    if (n >= 1 && event.clientX >= innerWidth/2.25){
         n ++;
-    } else if (n >= 1 && event.clientX < innerWidth/3){
+    } else if (n >= 1 && event.clientX < innerWidth/2.25){
         n--;
     }
     if (n < 1){
@@ -164,9 +168,9 @@ $(".fearful-wrapper").click(function(event){
     
 
 $(".ld-wrapper").click(function(event){
-    if (n >= 1 && event.clientX >= innerWidth/3){
+    if (n >= 1 && event.clientX >= innerWidth/2.25){
         n ++;
-    } else if (n >= 1 && event.clientX < innerWidth/3){
+    } else if (n >= 1 && event.clientX < innerWidth/2.25){
         n--;
     }
     if (n < 1){
@@ -250,9 +254,9 @@ $(".ld-wrapper").click(function(event){
 });
     
 $(".pi-wrapper").click(function(event){
-    if (n >= 1 && event.clientX >= innerWidth/3){
+    if (n >= 1 && event.clientX >= innerWidth/2.25){
         n ++;
-    } else if (n >= 1 && event.clientX < innerWidth/3){
+    } else if (n >= 1 && event.clientX < innerWidth/2.25){
         n--;
     }
     if (n < 1){
@@ -290,34 +294,78 @@ $(".pi-wrapper").click(function(event){
 
 });
 
+$(".pp-wrapper").click(function(event){
+    if (n >= 1 && event.clientX >= innerWidth/2.25){
+        n ++;
+    } else if (n >= 1 && event.clientX < innerWidth/2.25){
+        n--;
+    }
+    if (n < 1){
+        n = 4;
+    }
+    if (n > 4){
+        n = 1;
+    }
+    if (n == 1){
+    $("#pattern-1").css("visibility", "visible")
+    } else{
+    $("#pattern-1").css("visibility", "hidden")
+    }
+    if (n == 2){
+    $("#pattern-2").css("visibility", "visible")
+    } else{
+    $("#pattern-2").css("visibility", "hidden") 
+    }
+    if (n == 3){
+    $("#pattern-3").css("visibility", "visible")
+    } else{
+    $("#pattern-3").css("visibility", "hidden") 
+    }
+    if (n == 4){
+    $("#pattern-4").css("visibility", "visible")
+    } else{
+    $("#pattern-4").css("visibility", "hidden") 
+    }
+    document.getElementById("number").innerHTML = n + " of 4";
+
+});    
+    
 $(".no-wrapper").mousemove(function(event){
-    if (n >= 1 && event.clientX >= innerWidth/3){
+    if (n >= 1 && event.clientX >= innerWidth/2.25){
         $(this).css("cursor", "e-resize");
-    } else if ( n >= 1 && event.clientX < innerWidth/3){
+    } else if ( n >= 1 && event.clientX < innerWidth/2.25){
         $(this).css("cursor", "w-resize");
     }    
 });     
     
 $(".fearful-wrapper").mousemove(function(event){
-    if (n >= 1 && event.clientX >= innerWidth/3){
+    if (n >= 1 && event.clientX >= innerWidth/2.25){
         $(this).css("cursor", "e-resize");
-    } else if ( n >= 1 && event.clientX < innerWidth/3){
+    } else if ( n >= 1 && event.clientX < innerWidth/2.25){
         $(this).css("cursor", "w-resize");
     }    
 }); 
     
 $(".ld-wrapper").mousemove(function(event){
-    if (n >= 1 && event.clientX >= innerWidth/3){
+    if (n >= 1 && event.clientX >= innerWidth/2.25){
         $(this).css("cursor", "e-resize");
-    } else if ( n >= 1 && event.clientX < innerWidth/3){
+    } else if ( n >= 1 && event.clientX < innerWidth/2.25){
         $(this).css("cursor", "w-resize");
     }    
 });
     
 $(".pi-wrapper").mousemove(function(event){
-    if (n >= 1 && event.clientX >= innerWidth/3){
+    if (n >= 1 && event.clientX >= innerWidth/2.25){
         $(this).css("cursor", "e-resize");
-    } else if ( n >= 1 && event.clientX < innerWidth/3){
+    } else if ( n >= 1 && event.clientX < innerWidth/2.25){
+        $(this).css("cursor", "w-resize");
+    }    
+});
+    
+$(".pp-wrapper").mousemove(function(event){
+    if (n >= 1 && event.clientX >= innerWidth/2.25){
+        $(this).css("cursor", "e-resize");
+    } else if ( n >= 1 && event.clientX < innerWidth/2.25){
         $(this).css("cursor", "w-resize");
     }    
 });

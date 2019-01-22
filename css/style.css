@@ -71,7 +71,7 @@ h1{
     bottom: 1px;
 }
 
-h2{
+p{
     color: #afafaf;
     margin: 0px 0px;
     font-weight: 200;
@@ -88,34 +88,22 @@ h2{
 
 .sidebar{
     color: #afafaf;
-    transform: rotate(90deg);
+    writing-mode: vertical-rl; 
     position: relative;
-    transform-origin: 0px 0px;
+/*    transform: rotate(90deg);*/
+/*    transform-origin: 0px 0px;*/
     top: 20px;
-    left: 50px;
+    left: 15px;
     height: auto;
-    overflow-x: visible;
+    overflow: visible;
     white-space: nowrap;
-    overflow-y: visible;
     cursor: vertical-text;
     z-index: 10;
+    padding-bottom: 20px;
 }
 
 .ux{
     font-weight: 200;
-}
-
-#home{
-/*    width: 2200px;*/
-    width: 1800px;
-}
-
-#info-side{
-    width: 1650px; 
-}
-
-#fearful-side, #ld-side, #pi-side, #no-side{
-    width: 480px;
 }
 
 h1 a:hover{
@@ -138,10 +126,6 @@ h1 a:hover{
 
 .arrow{
     font-family: "Times New Roman";
-/*    color: #ffffff;*/
-/*    color: #afafaf;*/
-/*    padding-right: 5px;*/
-/*    padding-left: 15px;*/
     padding: 5px;
 }
 
@@ -217,23 +201,6 @@ h3{
     }
 }
 
-/*
-@keyframes blinking{
-    0%{
-        cursor: grab;
-    }
-    49%{
-        cursor: grab;
-    }
-    50%{
-        cursor: grabbing;
-    }
-    100%{
-        cursor: grabbing;
-    }
-}
-*/
-
 a:hover{
 /*    color: #000000;*/
     color: #ffffff;
@@ -297,16 +264,26 @@ a:hover{
     transform: translateY(-50%) translateX(-50%);
 }
 
-#fearful-pic.open, #pilot-pic.open, #death-sentence-pic.open, #no-pic.open{
+#pattern-pic{
+    visibility: hidden;
+    width: 280px;
+    margin: auto auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+#fearful-pic.open, #pilot-pic.open, #death-sentence-pic.open, #no-pic.open, #pattern-pic.open{
     visibility: visible;
 }
 
-#fearful-1, #ld-1, #pi-1, #no-1 {
+#fearful-1, #ld-1, #pi-1, #no-1, #pattern-1 {
     visibility: visible;
 } 
 
 .bitmap{
-    width: 225px;
+    width: 200px;
     position: fixed;
     bottom: 0 !important;
     right: 0;
@@ -326,7 +303,7 @@ a:hover{
     z-index: -1;
 }
 
-.fearful-wrapper, .ld-wrapper, .pi-wrapper, .no-wrapper{
+.fearful-wrapper, .ld-wrapper, .pi-wrapper, .no-wrapper, .pp-wrapper{
     width: 100%;
     height: 100%;
     position: fixed;
@@ -337,7 +314,7 @@ a:hover{
     z-index: 1;
 }
 
-.no-wrapper img, .fearful-wrapper img, .ld-wrapper img, .pi-wrapper img {
+.no-wrapper img, .fearful-wrapper img, .ld-wrapper img, .pi-wrapper img, .pp-wrapper img {
     position: fixed;
 /*    opacity: 0;*/
     visibility: hidden;
