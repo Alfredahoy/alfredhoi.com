@@ -23,3 +23,11 @@
     }
     
 }
+
+@media screen and (max-width: 499px) {
+    
+    .b-wrapper{
+        width: 85px;
+    }
+    
+}
