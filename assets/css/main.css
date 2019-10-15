@@ -33,7 +33,7 @@ h1{
     text-align: center;
     writing-mode: vertical-rl;
     height: 100%;
-    margin: auto auto;
+    margin: auto calc(50% - 18px);
 }
 
 .white{
