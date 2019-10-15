@@ -64,6 +64,7 @@
 @media screen and (max-width: 499px) {
     
     .b-wrapper{
+        margin-bottom: 2px;
         width: 70px;
     }
     
