@@ -26,15 +26,6 @@ p{
     margin: 18px 0px;
 }
 
-h1{
-    font-family: matrix-ii, serif;
-    font-weight: 200;
-    font-size: 4.25vh;
-    text-align: center;
-    writing-mode: vertical-rl;
-    height: 100%;
-    margin: auto calc(50% - 18px);
-}
 
 .white{
     color: #ffffff;
@@ -52,100 +43,22 @@ h1{
     margin-right: 0px;
 }
 
-.main-wrapper.work{
-    padding-right: 20px;
-}
-
-.black-bar{
-    position: fixed;
-    z-index: 10;
-    top: 0px;
-    width: 100%;
-    height: 20px;
-    background: #000000;
-}
-
-.grid-wrapper{
-    width: calc(50% - 10px);
-    height: 21px;
-    margin: 20px 0px 0px 20px;
-    position: fixed;
-    z-index: 5;
-    pointer-events: none;
-}
-
-.grid-wrapper.work{
-    left: calc(50% - 10px);
-}
-
-.grid{
-    height: 100%;
-    width: calc(50% - 20px);
-    float: left;
-    margin-left: 20px;
-    border-top: 1px solid #ffffff;
-}
-
-.grid:first-child{
-    margin-left: 0px;
-    border-left: 1px solid #ffffff;
-}
-
-
 .content-wrapper{
     position: relative;
     top: -9px;
-}
-
-.main-wrapper.work .content-wrapper{
-    padding-bottom: 50vh;
-}
-
-.main-wrapper.work .content-wrapper .col-3{
-    margin-top: -18px;
-    margin-bottom: 18px;
-}
-
-.main-wrapper.work a.white{
-    cursor: alias;
 }
 
 .col-3{
     padding-left: 12px;
     margin-right: 20px;
     float: left;
-    width: calc(50% - 22px);
-}
-
-.col-3.right{
-    margin-right: 0px;
-}
-
-.col-6:first-child{
-    margin-top: 20px;
-}
-
-.col-6{
-/*    height: 40px;*/
-    margin: 15px 0px;
-    padding-left: 12px;
-    margin-right: 20px;
-/*    float: left;*/
-    width: calc(100% - 11px)
-}
-
-.col-6 img{
-    width: 100%;
+    max-width: 350px;
 }
 
 a{
     color: rgba(255, 255, 255, 0.75);
     text-decoration: none;
     cursor: alias;
-}
-
-a.white{
-    cursor: pointer;
 }
 
 a.white:hover{
@@ -186,6 +99,10 @@ a:hover{
 
 .contact span{
     pointer-events: auto !important;
+}
+
+.contact a{
+    cursor: pointer;
 }
 
 .space{
